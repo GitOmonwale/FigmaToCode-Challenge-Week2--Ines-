@@ -1,8 +1,12 @@
+
 *{
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ 
 /* section 1 header + top_main */
 
 .section-1{
@@ -10,7 +14,7 @@
 width: 100%;
 background-color:#1E28320D ;
 color: #1E2832;
-padding: 30px 200px;
+padding: 30px 150px;
 }
 header{
     margin: auto;
@@ -50,10 +54,16 @@ font-size:18px;
 .menu{
     display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: space-around;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #1E2832;
 }
 
 .top_main{
+    width: 1000px;
     height: 562px;
     border-radius: 160px, 0px, 160px, 0px;
     display: flex;
@@ -109,6 +119,7 @@ width: 300px;
    padding-left: 180px;
    }
    .brand{
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -146,13 +157,14 @@ grid-template-columns: 250px 250px 250px 250px;
  }
  .explore{
     width: 500px;
-    height: 50px;
+    height: 30px;
      transform: rotate(90deg);
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 400px;
     position: absolute;
+    text-align: center;
    left: -100px;
-   top: 452px;
+   top: 460px;
  }
 
 
@@ -166,6 +178,7 @@ grid-template-columns: 250px 250px 250px 250px;
 
  .product-title{
     text-align: center;
+    padding-bottom: 20px;
  }
  .woodies{
     height: 32px;
@@ -222,6 +235,11 @@ font-weight: 600px;
  }
 .prod4, .prod6, .prod5{
     position: relative
+}
+.title_product{
+width: 300px;
+font-size: 15px;
+font-weight:600px;
 }
 .sale,.hot{
     position: absolute;
@@ -316,25 +334,22 @@ top: 150px;
      position: relative;
      padding-left: 165px;
 }
-.products{
-    
-}
+
  .preview{
     position: absolute;
     left: 155px;
-    bottom:280px;
+    bottom:260px;
  
  }
  .next{
     position: absolute;
     right: 155px;
-    bottom: 280px;
+    bottom: 260px;
  }
 
  /* section 5 (news-letters instagram) */
  .section-5{
-    padding: 100px 200px;
-    height: 754px;
+    padding: 50px 200px;
     background-color:#1E28320D;
  }
  .instagram_title{
@@ -352,7 +367,6 @@ justify-content: space-between;
  }
  .newsletters{
     width:760px;
-    height: 165px;
     margin: auto;
     margin-top: 50px;
  }
@@ -360,4 +374,102 @@ justify-content: space-between;
  .newsletters_title{
     font-family: Roboto, calibri;
      text-align: center;
+     margin-bottom: 50px;
  }
+ .email{
+    width: 643px;
+    height: 32px;
+    padding-left: 10px;
+    outline: none;
+    border-width: 0px 0px 2px 0px;
+    background-color: transparent;
+ }
+ .submit{
+    width: 91px;
+    height: 32px;
+    outline: none;
+    border-width: 0px 0px 2px 0px;
+    background-color: transparent;
+ }
+ .suscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ /* footer */
+ footer{
+display: flex;
+flex-direction: column;
+font-family: Open Sans, calibri;
+position: relative;
+ }
+
+.top_footer_2 h2, .top_footer_3 h2,  .top_footer_4 h2{
+    font-weight: 600px;
+    font-size: 16px;
+
+}
+ .top_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 200px;
+ }
+ .top_footer a{
+    text-decoration: none;
+    color: #1E2832;
+ }
+ .top_footer_1, .top_footer_2,  .top_footer_3,  .top_footer_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .top_footer_1{
+width: 400px;
+height: 207px;
+padding-right: 50px;
+color: #1E2832BF;
+ }
+ .coral{
+    width: 200px;
+ }
+ .top_footer_2,  .top_footer_3{
+    width: 200px;
+    height: 212px;
+ }
+ .top_footer_4{
+    width: 199px;
+    height: 212px;
+ }
+ .bottom_footer{
+    background-color: #1E2832;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
+ }
+
+ .bottom_footer a{
+color: white;
+ }
+
+ .btn_bottom_footer{
+    width: 150px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #1E2832;
+    border-style: none;
+    padding: 5px 10px;
+    gap: 4px;
+    font-size: small;
+    color: white;
+ }
+
+/* 
+ Animations du site web */
+
+ .menu a, .
