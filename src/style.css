@@ -898,7 +898,10 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-
+.section-1{
+   padding-left: 50px;
+   padding-right: 50px;
+}
    .hot1,
    .box1,
    .especially_box {
