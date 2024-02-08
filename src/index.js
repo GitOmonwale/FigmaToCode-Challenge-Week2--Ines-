@@ -52,15 +52,4 @@
         });
     });
 
-    //reaction coeur
-    const icon = document.getElementById("heart_icon");
-    
-        icon.addEventListener('click', function () {
-            // icon.classList.remove("fa-regular");
-            // icon.classList.add("fa-solid");
-            console.log("first click!");
-        })
-   
-
-    
-
+ 
