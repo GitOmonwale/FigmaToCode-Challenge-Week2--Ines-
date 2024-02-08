@@ -8,14 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1a7f93b397.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <section class="section-1">
         <header>
+            <i class="fa-solid fa-bars hamburger"></i>
             <div class="top_header">
-                <img src="Icons/icon_search.png" alt="">
+                <img src="Icons/icon_search.png" class="search" alt="">
                 <img src="Image_logo/logo_coral.png" alt="">
                 <div class="account_and_shopping">
                     <button class="account">
@@ -29,6 +31,7 @@
             </div>
             <hr>
             <div class="menu">
+                <i class="fa-solid fa-xmark cross" style="color: white;"></i>
                 <a href=""class="menu_item-1">Jewelry & Accessories</a>
                 <a href=""class="menu_item-2">Clothing & Shoes</a>
                 <a href=""class="menu_item-3">Home & Living</a>
@@ -58,7 +61,8 @@
 
     <section class="section-2">
         <div class="brand">
-            <img src="Image_logo/logo1.png" alt="">
+<div>            <img src="Image_logo/logo1.png" alt="">
+ </div>
             <img src="Image_logo/logo2.png" alt="">
             <img src="Image_logo/logo3.png" alt="">
             <img src="Image_logo/logo4.png" alt="">
@@ -66,15 +70,48 @@
         </div>
 
         <div class="hot_category">
-            <img src="Images_hot_category/hot1.svg" class="hot1" alt="hot_category">
-            <img src="Images_hot_category/hot2.png" class="hot2" alt="">
-            <img src="Images_hot_category/hot3.png" class="hot3" alt="">
-            <img src="Images_hot_category/hot4.svg" class="hot4" alt="">
-            <img src="Images_hot_category/hot-5.png" class="hot5" alt="">
+               <div class="box1">
+                <img src="Images_hot_category/hot1.svg" class="hot1" alt="hot_category">
+                <p class="infohot1">
+                    <span >PANTS</span>
+                    <span >200</span>
+                </p>
+                <p class="explore">
+                    EXPLORE NEW AND MORE POPULAR STYLES
+                </p>
+               </div>
+         <div class="especially_box">
+            <div class="box2">
+                <img src="Images_hot_category/hot2.png" class="hot2" alt="">
+                <p class="infohot2">
+                    <span >PANTS</span>
+                    <span >200</span>
+                </p>
+              </div>
+              <div class="box3">  <img src="Images_hot_category/hot3.png" class="hot3" alt="">
+                <p class="infohot3">
+                    <span >PANTS</span>
+                    <span >200</span>
+                </p>
+                <span class="sale h">SALE</span>
+            </div>
+               <div class="box4">
+                <img src="Images_hot_category/hot4.svg" class="hot4" alt="">
+                <p class="infohot4">
+                    <span >PANTS</span>
+                    <span >200</span>
+                </p>
+               </div>
+              <div class="box5">
+                <img src="Images_hot_category/hot-5.png" class="hot5" alt="">
+                <p class="infohot5">
+                    <span >PANTS</span>
+                    <span >200</span>
+                </p>
+              </div>
+         </div>
         </div>
-        <p class="explore">
-            EXPLORE NEW AND MORE POPULAR STYLES
-        </p>
+       
 
 
         <div class="grid-products">
@@ -95,8 +132,18 @@
             </div>
 
             <div class="products">
-                <div class="prod1">
-                    <img class="prod_top1" src="Images_grid_product/product-1.png" alt="">
+                <div class="prod1 prod">
+                    <img class="prod_top" src="Images_grid_product/product-1.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
                         <p class="details">
@@ -105,8 +152,18 @@
                         </p>
                     </div>
                 </div>
-                <div class="prod2">
+                <div class="prod2 prod">
                     <img class="prod_top" src="Images_grid_product/product-2.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Nike Sportswear Futura Luxe</h3>
                         <p class="details">
@@ -115,8 +172,18 @@
                         </p>
                     </div>
                 </div>
-                <div class="prod3">
+                <div class="prod3 prod active">
                     <img class="prod_top" src="Images_grid_product/product-3.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
                         <p class="details">
@@ -125,8 +192,18 @@
                         </p>
                     </div>
                 </div>
-                <div class="prod4">
+                <div class="prod4 prod">
                     <img class="prod_top" src="Images_grid_product/product-4.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
                         <p class="details">
@@ -139,8 +216,18 @@
                     </div>
                     <span class="sale">SALE</span>
                 </div>
-                <div class="prod5">
+                <div class="prod5 prod">
                     <img class="prod_top" src="Images_grid_product/product-5.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                         <button>
+                            <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                            <span>Shop now</span>
+                        </button>
+                    </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Basic Dress Green</h3>
                         <p class="details">
@@ -150,8 +237,18 @@
                     </div>
                     <span class="hot">HOT</span>
                 </div>
-                <div class="prod6">
+                <div class="prod6 prod">
                     <img class="prod_top" src="Images_grid_product/product-6.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Nike Air Zoom Pegasus</h3>
                         <p class="details">
@@ -164,8 +261,18 @@
                     </div>
                     <span class="sale">SALE</span>
                 </div>
-                <div class="prod7">
+                <div class="prod7 prod">
                     <img class="prod_top" src="Images_grid_product/product-7.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
                         <p class="details">
@@ -174,8 +281,18 @@
                         </p>
                     </div>
                 </div>
-                <div class="prod8">
-                    <img class="prod_top8" src="Images_grid_product/product-8.png" alt="">
+                <div class="prod8 prod">
+                    <img class="prod_top" src="Images_grid_product/product-8.png" alt="">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
                         <p class="details">
@@ -187,6 +304,8 @@
 
             </div>
         </div>
+        <img src="Icons/icon_left.png" id="preview" class="button" alt="">
+        <img src="Icons/icon_right.png" id="next" class="button" alt="">
     </section>
 
     <section class="section-3">
@@ -223,7 +342,17 @@
         </div>
         <div class="sliders">
             <div class="products">
-                <div class="prod5">
+                <div class="prod5 best">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <img class="prod_top" src="Images_grid_product/product-5.png" alt="">
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
@@ -234,7 +363,17 @@
                     </div>
                     <span class="hot">HOT</span>
                 </div>
-                <div class="prod2">
+                <div class="prod2 best active-best" >
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <img class="prod_top" src="Images_grid_product/product-2.png" alt="">
                     <div class="prod_bottom">
                         <h3 class="title_product">Nike Sportswear Futura Luxe</h3>
@@ -244,7 +383,17 @@
                         </p>
                     </div>
                 </div>
-                <div class="prod4">
+                <div class="prod4 best">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                   </div>
                     <img class="prod_top" src="Images_grid_product/product-4.png" alt="">
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
@@ -258,7 +407,17 @@
                     </div>
                     <span class="sale">SALE</span>
                 </div>
-                <div class="prod6">
+                <div class="prod6 best">
+                    <div class="info">
+                        <p class="reaction">
+                            <i class="fa-regular  fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>  
+                        </p>
+                        <button>
+                           <img src="Icons/icon_shopping (2).png" alt="icon_shopping">
+                           <span>Shop now</span>
+                       </button>
+                    </div>
                     <img class="prod_top" src="Images_grid_product/product-6.png" alt="">
                     <div class="prod_bottom">
                         <h3 class="title_product">Adicolor Classics Joggers</h3>
@@ -273,8 +432,8 @@
                     <span class="sale">SALE</span>
                 </div>
             </div>
-            <img src="Icons/icon_left.png" class="preview" alt="">
-            <img src="Icons/icon_right.png" class="next" alt="">
+            <img src="Icons/icon_left.png" id="preview-best" class="button-best" alt="">
+            <img src="Icons/icon_right.png" id="next-best" class="button-best" alt="">
         </div>
     </section>
 
@@ -348,7 +507,7 @@
 
         <div class="bottom_footer">
             <a href="" class="copyright">© 2022 Coral , Inc.</a>
-            <img src="icons_payment.png" alt="" class="payement">
+            <img src="Icons/icons_payment.png" alt="" class="payement">
             <button class="btn_bottom_footer">
                 <span>Scroll to top</span>
                 <img src="Icons/icon_top.png" alt="">
@@ -356,5 +515,5 @@
         </div>
     </footer>
 </body>
-
+<script src="index.js"></script>
 </html>
